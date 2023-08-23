@@ -10,7 +10,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://harikrishnanmnair2002:0GdYJ5cfqwRv13sc@fruitsproject.pk8u2ob.mongodb.net/todolistDB");
+mongoose.connect("mongodb+srv://email:password@fruitsproject.pk8u2ob.mongodb.net/todolistDB");
 
 const itmesSchema = new mongoose.Schema({
     name : String
